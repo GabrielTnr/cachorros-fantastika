@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    width: 100vw;
+    height: 10vh;
+    background-color: #252525;
+    display: flex;
+    align-items: center;
+}
+.patinha-nav {
+    width: 3vw;
+    height: 5vh;
+}
