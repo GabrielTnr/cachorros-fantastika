@@ -5,39 +5,42 @@
   padding: 0;
   box-sizing: border-box;
 }
-header {
-  background-color: #252525;
+nav {
   display: flex;
-  align-items: center;
   justify-content: space-around;
+  align-items: center;
+  background-color: #252525;
   height: 10vh;
 }
-header nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  width: 100vw;
-}
-.icon-logo {  
+.iconePataNav {  
   width: 1.8vw;
   height: 3.6vh;
 }
-.fantastika {
-  font-family: 'Roboto Serif', serif;
-  font-size: 18px;
-  font-weight: bold;
-  color: aliceblue; 
-}
-ul {
-  list-style: none;
+.primeiraCaixaFigure {
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
+  font-family: 'Roboto Serif', serif;
+  font-weight: bold;
+  color: white;
+  width: 50vw;
+  height: 10vh;
 }
-.icon-instagram, .icon-whatsapp {
-  width: 1.3vw;
-  height: 2.6vh;
-} 
-.icon-youtube {
-  width: 1.8vw;
-  height: 2.6vh;
+.segundaCaixaFigure {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 8vw;
+  height: 10vh;
+}
+.iconeInstagram {
+  width: 1.5vw;
+  height: 2.8vh;
+}
+.iconeYoutube {
+  width: 1.9vw;
+  height: 2.5vh;
+}
+.iconeWhatsapp {
+  width: 1.4;
+  height: 2.6;
 }
