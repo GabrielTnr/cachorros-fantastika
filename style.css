@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@300&family=Roboto:wght@300&display=swap');
 
 * {
   margin: 0;
@@ -6,10 +7,10 @@
   box-sizing: border-box;
 }
 nav {
+  background-color: #252525;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #252525;
   height: 10vh;
 }
 .iconePataHeader {  
@@ -44,14 +45,14 @@ nav {
   width: 1.5vw;
   height: 2.8vh;
 }
-h1 {
+.primeiroCachorroMain h1 {
   font-family: 'Roboto Serif', serif;
+  font-weight: bold;
+  font-size: 60px;
   color: white;
   white-space: pre-line;
   text-align: center;
-  font-size: 60px;
-  font-weight: bold;
-  padding-bottom: 1em;
+  padding-bottom: 1rem;
 }
 .iconePataMain {
   width: 9vw;
@@ -62,9 +63,96 @@ h1 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-bottom: 18em;
+  padding-bottom: 16rem;
   width: 100%;
   height: 90vh;
   background-image: url("https://github.com/mariaccarolina/desafioFinal/blob/main/Web/Grupo%20486.png?raw=true");
   background-size: 100% 100%;
+}
+.segundoCachorroMain h1 {
+  font-family: 'Roboto Serif', serif;
+  font-weight: bold;
+  font-size: 60px;
+  color: #3A342F;
+}
+.segundoCachorroMain h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  white-space: pre-line;
+  color: #3A342F;
+}
+.segundoCachorroMain {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  height: 102vh;
+  background-image: url("https://github.com/mariaccarolina/desafioFinal/blob/main/Web/Interse%C3%A7%C3%A3o%2016.png?raw=true");
+  background-size: 100% 100%;
+}
+.botaoSegundoCachorro {
+  background-color: #3A342F;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 27px;
+  color: white;
+  width: 13vw;
+  height: 8vh;
+  border-radius: 2.75rem;
+  border: none;
+}
+.segundoCachorroMain h1 {
+  padding-bottom: 2rem;
+}
+.segundoCachorroMain h2 {
+  padding-bottom: 2rem;
+}
+.caixaSegundoCachorro {
+  width: 48vw;
+  padding-left: 4rem;
+}
+
+.terceiroCachorroMain h1 {
+  font-family: 'Roboto Serif', serif;
+  font-weight: bold;
+  font-size: 60px;
+  white-space: pre-line;
+  color: white;
+}
+.terceiroCachorroMain h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  white-space: pre-line;
+  color: white;
+}
+.terceiroCachorroMain {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://github.com/mariaccarolina/desafioFinal/blob/main/Web/Grupo%20480.png?raw=true");
+  background-size: 100% 100%;
+}
+.botaoTerceiroCachorro {
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 27px;
+  color: black;
+  width: 13vw;
+  height: 8vh;
+  border-radius: 2.75rem;
+  border: none;
+}
+.terceiroCachorroMain h1 {
+  padding-bottom: 2rem;
+}
+.terceiroCachorroMain h2 {
+  padding-bottom: 2rem;
+}
+.caixaTerceiroCachorro {
+  width: 40vw;
 }
