@@ -156,3 +156,43 @@ nav {
 .caixaTerceiroCachorro {
   width: 40vw;
 }
+.primeiraSessaoFooter h2 {
+  font-family: 'Roboto Serif', serif;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  font-style: italic;
+  color: #FD6A9A;
+}
+.primeiraSessaoFooter {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 11vh;
+}
+.segundaSessaoFooter li {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  list-style: none;
+  padding-bottom: 0.5rem;
+}
+.segundaSessaoFooter h2 {
+  font-family: 'Roboto Serif', serif;
+  font-weight: bold;
+  font-size: 1.75rem;
+  padding-bottom: 1.5rem;
+}
+.segundaSessaoFooter {
+  background-color: #EB4A7B;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 34vh;
+  color: white;
+}
+.caixaSegundaSessaoFooter {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 40vw;
+  height: 34vh;
+}
